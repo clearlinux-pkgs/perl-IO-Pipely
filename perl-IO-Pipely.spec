@@ -4,10 +4,10 @@
 #
 Name     : perl-IO-Pipely
 Version  : 0.005
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/R/RC/RCAPUTO/IO-Pipely-0.005.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RC/RCAPUTO/IO-Pipely-0.005.tar.gz
-Summary  : 'Portably create pipe() or pipe-like handles, one way or another.'
+Summary  : Portably create pipe() or pipe-like handles, one way or another.
 Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-IO-Pipely-license = %{version}-%{release}
@@ -22,6 +22,7 @@ another.
 Summary: dev components for the perl-IO-Pipely package.
 Group: Development
 Provides: perl-IO-Pipely-devel = %{version}-%{release}
+Requires: perl-IO-Pipely = %{version}-%{release}
 
 %description dev
 dev components for the perl-IO-Pipely package.
