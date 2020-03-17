@@ -4,7 +4,7 @@
 #
 Name     : perl-IO-Pipely
 Version  : 0.005
-Release  : 12
+Release  : 13
 URL      : https://cpan.metacpan.org/authors/id/R/RC/RCAPUTO/IO-Pipely-0.005.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RC/RCAPUTO/IO-Pipely-0.005.tar.gz
 Summary  : 'Portably create pipe() or pipe-like handles, one way or another.'
@@ -97,4 +97,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/IO/Pipely.pm
+/usr/lib/perl5/vendor_perl/5.30.2/IO/Pipely.pm
