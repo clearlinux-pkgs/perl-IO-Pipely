@@ -4,7 +4,7 @@
 #
 Name     : perl-IO-Pipely
 Version  : 0.006
-Release  : 25
+Release  : 26
 URL      : https://cpan.metacpan.org/authors/id/R/RC/RCAPUTO/IO-Pipely-0.006.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RC/RCAPUTO/IO-Pipely-0.006.tar.gz
 Summary  : 'Portably create pipe() or pipe-like handles, one way or another.'
